@@ -1,0 +1,6 @@
+{
+  "name": "OkeyReview Goods",
+  "description": "Expert, unbiased physical product reviews, hands-on tests, and curated buying guides for home living, beauty, automotive gear, and everyday lifestyle goods.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

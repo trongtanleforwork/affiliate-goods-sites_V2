@@ -1,0 +1,73 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import Socials from "./Socials.astro";
+import { useTranslations } from "@/i18n";
+import config from "@/config";
+
+type Props = {
+  noMarginTop?: boolean;
+} & HTMLAttributes<"footer">;
+
+const { noMarginTop = false, class: className, ...attrs } = Astro.props;
+
+const t = useTranslations(Astro.currentLocale);
+const currentYear = new Date().getFullYear();
+---
+
+<footer
+  class:list={["app-layout", { "mt-auto": !noMarginTop }, className]}
+  {...attrs}
+>
+  <div class="border-border border-t pt-6 pb-6 sm:py-6">
+    {/* Legal & Compliance Navigation Bar */}
+    <nav
+      aria-label="Legal and Compliance Navigation"
+      class="mb-4 flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs font-medium text-muted-foreground"
+    >
+      <a
+        href="/posts/policy/affiliate-disclosure/"
+        class="hover:text-accent transition-colors hover:underline"
+      >
+        Affiliate Disclosure
+      </a>
+      <span class="text-border select-none" aria-hidden="true">•</span>
+      <a
+        href="/posts/policy/privacy-policy/"
+        class="hover:text-accent transition-colors hover:underline"
+      >
+        Privacy Policy
+      </a>
+      <span class="text-border select-none" aria-hidden="true">•</span>
+      <a
+        href="/posts/policy/terms-of-service/"
+        class="hover:text-accent transition-colors hover:underline"
+      >
+        Terms of Service
+      </a>
+      <span class="text-border select-none" aria-hidden="true">•</span>
+      <a
+        href="/about/"
+        class="hover:text-accent transition-colors hover:underline"
+      >
+        Contact Us
+      </a>
+    </nav>
+
+    {/* Social Links and Copyright Notice */}
+    <div
+      class="flex flex-col items-center justify-between gap-y-3 sm:flex-row-reverse"
+    >
+      <Socials />
+      <div
+        class="flex flex-col items-center whitespace-nowrap text-sm text-muted-foreground sm:flex-row"
+      >
+        <span
+          >{t.footer.copyright} &#169; {currentYear} {config.site.title}</span
+        >
+        <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
+        <span>{t.footer.allRightsReserved}</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
