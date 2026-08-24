@@ -9,6 +9,7 @@
     "dev": "astro dev --host 0.0.0.0 --port 3000",
     "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
     "preview": "astro preview --host 0.0.0.0 --port 3000",
+    "deploy": "wrangler deploy",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check .",
