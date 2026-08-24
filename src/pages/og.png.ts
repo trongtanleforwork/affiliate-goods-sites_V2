@@ -1,11 +1,16 @@
 import type { APIRoute } from "astro";
-import satori from "satori";
-import sharp from "sharp";
 import { fontData, experimental_getFontFileURL } from "astro:assets";
 import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
 export const GET: APIRoute = async context => {
+  if (!config.features.dynamicOgImage) {
+    return new Response(null, { status: 404, statusText: "Not found" });
+  }
+
+  const satori = (await import("satori")).default;
+  const sharp = (await import("sharp")).default;
+
   const fonts = fontData["--font-google-sans-code"];
   const regularFontPath = getFontPathByWeight(fonts, 400);
   const boldFontPath = getFontPathByWeight(fonts, 700);

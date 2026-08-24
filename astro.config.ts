@@ -2,6 +2,7 @@ import {
   defineConfig,
   envField,
   fontProviders,
+  passthroughImageService,
   svgoOptimizer,
 } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
@@ -25,6 +26,9 @@ export default defineConfig({
     port: 3000,
   },
   site: config.site.url,
+  image: {
+    service: passthroughImageService(),
+  },
   integrations: [
     mdx(),
     sitemap({
