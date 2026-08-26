@@ -67,7 +67,7 @@ We compare each item against category competitors at similar price points to det
     Tan Le is a technology enthusiast, consumer advocate, and digital product specialist with over 7 years of experience in product research, user testing, and digital platforms. As the lead editor of OkeyReview Goods, Tan oversees every published buying guide, verifying that each recommendation adheres strictly to FTC transparency guidelines and authentic testing standards.
   </p>
   <p class="mt-3 text-xs text-muted-foreground">
-    <strong>Direct Contact:</strong> <a href="mailto:trongtanleforwork@gmail.com" class="text-accent underline">trongtanleforwork@gmail.com</a>
+    <strong>Editorial Contact:</strong> <a href="mailto:info.okeyreview@gmail.com" class="text-accent underline">info.okeyreview@gmail.com</a>
   </p>
 </div>
 
@@ -77,9 +77,7 @@ We compare each item against category competitors at similar price points to det
 
 We welcome reader inquiries, feedback on our guides, correction suggestions, and verified product submission requests:
 
-* **Founder & Lead Reviewer:** Tan Le (`trongtanleforwork@gmail.com`)
 * **Editorial & General Inquiries:** [info.okeyreview@gmail.com](mailto:info.okeyreview@gmail.com)
-* **Direct Hotline / Phone Support:** `(+84) 0948.592.349`
 * **Official Facebook Community:** [facebook.com/okeyreview](https://www.facebook.com/okeyreview/)
 * **Official Pinterest Inspiration:** [pinterest.com/infookeyreview](https://www.pinterest.com/infookeyreview/)
 * **Website URL:** [https://goods.okeyreview.com/](https://goods.okeyreview.com/)

@@ -80,8 +80,6 @@ These Terms shall be governed by and construed in accordance with applicable gen
 For inquiries, copyright notices, or questions regarding these Terms:
 * **Founder / Owner:** Tan Le
 * **Editorial & Support Email:** [info.okeyreview@gmail.com](mailto:info.okeyreview@gmail.com)
-* **Direct Email:** [trongtanleforwork@gmail.com](mailto:trongtanleforwork@gmail.com)
-* **Hotline / Phone Support:** `(+84) 0948.592.349`
 * **Official Facebook:** [facebook.com/okeyreview](https://www.facebook.com/okeyreview/)
 * **Official Pinterest:** [pinterest.com/infookeyreview](https://www.pinterest.com/infookeyreview/)
 

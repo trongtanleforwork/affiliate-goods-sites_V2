@@ -26,8 +26,6 @@ The entity responsible for processing your personal data on this website is:
 * **Brand / Website:** OkeyReview Goods (https://goods.okeyreview.com/)
 * **Founder & Data Controller:** Tan Le
 * **Support Email:** [info.okeyreview@gmail.com](mailto:info.okeyreview@gmail.com)
-* **Direct Email:** [trongtanleforwork@gmail.com](mailto:trongtanleforwork@gmail.com)
-* **Hotline:** (+84) 0948.592.349
 
 ---
 
@@ -107,8 +105,6 @@ We implement SSL/TLS encryption across our entire site and enforce strict access
 For any privacy-related questions, data requests, or compliance inquiries:
 * **Data Controller:** Tan Le
 * **Official Support Email:** [info.okeyreview@gmail.com](mailto:info.okeyreview@gmail.com)
-* **Direct Email:** [trongtanleforwork@gmail.com](mailto:trongtanleforwork@gmail.com)
-* **Hotline / Phone Support:** `(+84) 0948.592.349`
 * **Official Facebook:** [facebook.com/okeyreview](https://www.facebook.com/okeyreview/)
 * **Official Pinterest:** [pinterest.com/infookeyreview](https://www.pinterest.com/infookeyreview/)
 

@@ -74,9 +74,7 @@ Our commercial relationships have **zero influence** on our editorial content:
 
 If you have questions regarding our affiliate partnerships, FTC compliance, or editorial guidelines:
 
-* **Founder & Lead Reviewer:** Tan Le (`trongtanleforwork@gmail.com`)
 * **Editorial & Inquiries:** [info.okeyreview@gmail.com](mailto:info.okeyreview@gmail.com)
-* **Hotline:** `(+84) 0948.592.349`
 * **Facebook:** [facebook.com/okeyreview](https://www.facebook.com/okeyreview/)
 * **Pinterest:** [pinterest.com/infookeyreview](https://www.pinterest.com/infookeyreview/)
 
